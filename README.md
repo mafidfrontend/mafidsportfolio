@@ -5,7 +5,7 @@
 ## 🌐 Live Demo
 
 Explore the live demonstration of the project:
-[reactjs18-3d-portfolio](https://mafidsportfolio.vercel.app)
+[mafidsportfolio.](https://mafidsportfolio.vercel.app)
 
 ## 📝 Description
 
