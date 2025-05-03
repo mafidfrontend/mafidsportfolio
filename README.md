@@ -100,21 +100,7 @@ reactjs18-3d-portfolio/
 - [Live Demo](#-live-demo)
 - [Description](#-description)
 - [Technologies Used](#-technologies-used)
-- [Get Started](#-get-started)
-  - [Prerequisites](#-prerequisites)
-  - [Installation and Run Locally](#-installation-and-run-locally)
-  - [Scripts](#-scripts)
-- [Environment Variables](#-environment-variables)
-- [Deployment](#-deployment)
-  - [Deploy to production (manual)](#-deploy-to-production-manual)
-  - [Deploy on Vercel (recommended)](#-deploy-on-vercel-recommended)
-  - [Deploy on Netlify](#-deploy-on-netlify)
-- [Contributing](#-contributing)
-  - [Bug / Feature Request](#-bug--feature-request)
-- [Acknowledgements](#-acknowledgements)
-- [References](#-references)
-- [Contact Us](#-contact-us)
-- [License](#-license)
+
 
 </details>
 
@@ -144,11 +130,6 @@ reactjs18-3d-portfolio/
 </details><br/>
 
 [![Technologies Used](https://skillicons.dev/icons?i=ts,vite,react,threejs,tailwind,vercel)](https://skillicons.dev)
-
-## 🧰 Get Started
-
-To get this project up and running in your development environment, follow these step-by-step
-instructions.
 
 ### 📋 Prerequisites
 
