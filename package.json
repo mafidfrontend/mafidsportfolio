@@ -8,14 +8,20 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "ts:check": "tsc --noEmit"
+    "ts:check": "tsc --noEmit",
+    "server": "node server.js"
   },
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
     "@react-three/drei": "^9.99.4",
     "@react-three/fiber": "^8.15.16",
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
     "framer-motion": "^9.0.7",
     "maath": "^0.10.7",
+    "node-fetch": "^3.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-parallax-tilt": "^1.7.212",
@@ -24,6 +30,7 @@
     "three": "^0.161.0"
   },
   "devDependencies": {
+    "@types/node": "^22.15.3",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@types/react-vertical-timeline-component": "^3.3.6",
@@ -40,5 +47,18 @@
     "tailwindcss": "^3.2.6",
     "typescript": "^5.2.2",
     "vite": "^6.3.4"
-  }
+  },
+  "description": "<!-- GitHub badges -->",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mafidfrontend/mafidsportfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mafidfrontend/mafidsportfolio/issues"
+  },
+  "homepage": "https://github.com/mafidfrontend/mafidsportfolio#readme"
 }
