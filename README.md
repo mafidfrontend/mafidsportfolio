@@ -9,8 +9,8 @@ Explore the live demonstration of the project:
 
 ## 📝 Description
 
-**3D Portfolio** is a well-designed and fully functional portfolio website that is built with
-React.js and Three.js. It is a fully responsive website that works well on all devices.
+**Portfolio** is a well-designed and fully functional portfolio website that is built with
+React.js. It is a fully responsive website that works well on all devices.
 
 <details><summary><b>Folder Structure</b></summary>
 
