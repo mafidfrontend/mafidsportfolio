@@ -27,20 +27,11 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    const telegramMessage = `
-      📩 Yangi xabar!
-      👤 Ism: ${form.name}
-      📧 Email: ${form.email}
-      💬 Xabar: ${form.message}
-    `;
-
-    const TELEGRAM_BOT_TOKEN = process.env.NEXT_PUBLIC_TELEGRAM_BOT_TOKEN;
-    const TELEGRAM_CHAT_ID = process.env.NEXT_PUBLIC_TELEGRAM_CHAT_ID;
-
     try {
-      await axios.post(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
-        chat_id: TELEGRAM_CHAT_ID,
-        text: telegramMessage,
+      await axios.post('https://mafidsportfolio.vercel.app/api/send-message', {
+        name: form.name,
+        email: form.email,
+        message: form.message,
       });
 
       alert('Xabaringiz muvaffaqiyatli yuborildi!');
