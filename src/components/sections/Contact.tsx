@@ -26,18 +26,18 @@ const Contact = () => {
   const sendMessage = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
-
+  
     try {
       await axios.post('https://mafidsportfolio.vercel.app/api/send-message', {
         name: form.name,
         email: form.email,
         message: form.message,
       });
-
+  
       alert('Xabaringiz muvaffaqiyatli yuborildi!');
       setForm({ name: '', email: '', message: '' });
     } catch (error) {
-      console.error('Xabar yuborishda xato:', error);
+      console.error('Xatolik:', error);
       alert('Xatolik yuz berdi. Qayta urinib ko‘ring.');
     } finally {
       setLoading(false);
