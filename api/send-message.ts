@@ -4,6 +4,7 @@ import axios from 'axios';
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
 
+
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== 'POST') {
     return res.status(405).json({ message: 'Only POST allowed' });
@@ -30,3 +31,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(500).json({ ok: false, message: 'Telegramga yuborishda xatolik' });
   }
 }
+
+export const config = {
+  api: {
+    bodyParser: true,
+  },
+};
