@@ -12,16 +12,20 @@ import {
 } from "./components";
 import { useEffect } from "react";
 import { config } from "./constants/config";
+import { Toaster } from "sonner";
 
 const App = () => {
   useEffect(() => {
     if (document.title !== config.html.title) {
       document.title = config.html.title;
     }
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) metaDescription.setAttribute("content", config.html.description);
   }, []);
 
   return (
     <BrowserRouter>
+      <Toaster />
       <div className="bg-primary relative z-0">
         <div className="bg-hero-pattern bg-cover bg-center bg-no-repeat">
           <Navbar />

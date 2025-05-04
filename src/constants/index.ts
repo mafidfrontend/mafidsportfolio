@@ -40,6 +40,7 @@ const services: TService[] = [
   {
     title: "Web Developer",
     icon: web,
+    description: ""
   },
 ];
 
@@ -47,30 +48,37 @@ const technologies: TTechnology[] = [
   {
     name: "HTML 5",
     icon: html,
+    description: ""
   },
   {
     name: "CSS 3",
     icon: css,
+    description: ""
   },
   {
     name: "JavaScript",
     icon: javascript,
+    description: ""
   },
   {
     name: "TypeScript",
     icon: typescript,
+    description: ""
   },
   {
     name: "React JS",
     icon: reactjs,
+    description: ""
   },
   {
     name: "Redux Toolkit",
     icon: redux,
+    description: ""
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
+    description: ""
   }
 ];
 
@@ -80,6 +88,7 @@ const experiences: TExperience[] = [
     companyName: "Najot Ta'lim",
     icon: starbucks,
     iconBg: "#383E56",
+    description: "",
     date: "January 2025 - April 2025",
     points: [
       "Developing and maintaining modern web applications using React.js, Next.js, and TypeScript as part of the Najot Ta'lim team.",

@@ -6,6 +6,7 @@ import { slideIn } from '../../utils/motion';
 import { config } from '../../constants/config';
 import { Header } from '../atoms/Header';
 import axios from 'axios';
+import { toast } from 'sonner';
 
 const Contact = () => {
   const formRef = useRef<HTMLFormElement>(null);
@@ -26,20 +27,18 @@ const Contact = () => {
   const sendMessage = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
-  
+
     try {
       await axios.post('https://mafidsportfolio.vercel.app/api/send-message', {
         name: form.name,
         email: form.email,
         message: form.message,
       });
-      
-  
-      alert('Xabaringiz muvaffaqiyatli yuborildi!');
+
+      toast.success('Xabaringiz muvaffaqiyatli yuborildi!');
       setForm({ name: '', email: '', message: '' });
     } catch (error) {
-      console.error('Xatolik:', error);
-      alert('Xatolik yuz berdi. Qayta urinib ko‘ring.');
+      toast.error('Xatolik yuz berdi. Qayta urinib ko‘ring.');
     } finally {
       setLoading(false);
     }
@@ -86,7 +85,7 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn('right', 'tween', 0.2, 1)}
-        className="h-[350px] md:h-[550px] xl:h-auto xl:flex-1 a"
+        className="h-[350px] md:h-[550px] xl:h-auto xl:flex-1"
       >
         <EarthCanvas />
       </motion.div>
