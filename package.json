@@ -13,8 +13,7 @@
     "server": "node server.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build:sitemap": "node sitemap-builder.js",
-    "postbuild": "next-sitemap"
+    "build:sitemap": "node sitemap-builder.js"
   },
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
@@ -27,7 +26,6 @@
     "express": "^5.1.0",
     "framer-motion": "^9.0.7",
     "maath": "^0.10.7",
-    "next-sitemap": "^4.2.3",
     "node-fetch": "^3.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.3.1",
