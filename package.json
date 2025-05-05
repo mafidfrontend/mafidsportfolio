@@ -13,6 +13,7 @@
     "server": "node server.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "build:sitemap": "node sitemap-builder.js",
     "postbuild": "next-sitemap"
   },
   "dependencies": {
