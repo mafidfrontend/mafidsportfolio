@@ -70,7 +70,6 @@
   "bugs": {
     "url": "https://github.com/mafidfrontend/mafidsportfolio/issues"
   },
-  "homepage": "/mafidfrontend/mafidsportfolio/",
   "browserslist": {
     "production": [
       ">0.2%",
