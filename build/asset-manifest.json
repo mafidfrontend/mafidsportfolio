@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mafidfrontend/mafidsportfolio/static/css/main.f6f4ee7a.css",
-    "main.js": "/mafidfrontend/mafidsportfolio/static/js/main.07634396.js",
+    "main.js": "/mafidfrontend/mafidsportfolio/static/js/main.c0f31870.js",
     "static/media/tripguide.png": "/mafidfrontend/mafidsportfolio/static/media/tripguide.c55446b3faa90a539647.png",
     "static/media/jobit.png": "/mafidfrontend/mafidsportfolio/static/media/jobit.1a19f2f55c2069c6e4ce.png",
     "static/media/carrent.png": "/mafidfrontend/mafidsportfolio/static/media/carrent.d565600891c5a16def10.png",
@@ -14,10 +14,10 @@
     "static/media/menu.svg": "/mafidfrontend/mafidsportfolio/static/media/menu.c9f8901d4aaffb231e567165dcaf25ff.svg",
     "index.html": "/mafidfrontend/mafidsportfolio/index.html",
     "main.f6f4ee7a.css.map": "/mafidfrontend/mafidsportfolio/static/css/main.f6f4ee7a.css.map",
-    "main.07634396.js.map": "/mafidfrontend/mafidsportfolio/static/js/main.07634396.js.map"
+    "main.c0f31870.js.map": "/mafidfrontend/mafidsportfolio/static/js/main.c0f31870.js.map"
   },
   "entrypoints": [
     "static/css/main.f6f4ee7a.css",
-    "static/js/main.07634396.js"
+    "static/js/main.c0f31870.js"
   ]
 }
